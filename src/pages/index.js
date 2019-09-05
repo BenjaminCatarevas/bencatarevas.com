@@ -13,7 +13,15 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout
+        location={this.props.location}
+        title={siteTitle}
+        links={[
+          { name: "Contact", link: "contact" },
+          { name: "Articles", link: "articles" },
+          { name: "About", link: "about" },
+        ]}
+      >
         <SEO title="Home" />
         <Bio />
         {posts.map(({ node }) => {

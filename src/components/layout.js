@@ -11,30 +11,49 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h1>
+        <div className="nav-container">
+          <div className="name-container">
+            <h1
+              style={{
+                ...scale(0.25),
+                marginBottom: rhythm(1.5),
+                marginTop: 0,
+              }}
+            >
+              <Link
+                style={{
+                  boxShadow: `none`,
+                  textDecoration: `none`,
+                  color: `inherit`,
+                }}
+                to={`/`}
+              >
+                {title}
+              </Link>
+              {this.props.links.map(link => {
+                return (
+                  <Link
+                    key={link.name}
+                    to={link.link}
+                    style={{
+                      float: "right",
+                      paddingLeft: "10px",
+                      textDecoration: "none",
+                      color: "grey",
+                    }}
+                  >
+                    {link.name}
+                  </Link>
+                )
+              })}
+            </h1>
+          </div>
+        </div>
       )
     } else {
       header = (
         <h3
           style={{
-            fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
           }}
         >
@@ -48,6 +67,22 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
+          {this.props.links.map(link => {
+            return (
+              <Link
+                key={link.name}
+                to={link.link}
+                style={{
+                  float: "right",
+                  paddingLeft: "10px",
+                  textDecoration: "none",
+                  color: "grey",
+                }}
+              >
+                {link.name}
+              </Link>
+            )
+          })}
         </h3>
       )
     }
@@ -62,10 +97,9 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <footer style={{ color: "grey" }}>
+          © {new Date().getFullYear()} Nothing else to see here, buster. Move
+          along.
         </footer>
       </div>
     )

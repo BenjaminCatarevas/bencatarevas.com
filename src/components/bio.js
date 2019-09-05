@@ -7,8 +7,8 @@
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import quips from "../utils/quips"
 import Image from "gatsby-image"
-
 import { rhythm } from "../utils/typography"
 
 const Bio = () => {
@@ -29,12 +29,11 @@ const Bio = () => {
     }
   `)
 
-  const { author, social } = data.site.siteMetadata
+  const { author } = data.site.siteMetadata
   return (
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(2.5),
       }}
     >
       <Image
@@ -51,11 +50,10 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong>.
-        {` `}
-        {/* <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a> */}
+        I'm Ben. I'm a software engineer who likes to write about{" "}
+        <strong>not</strong> software.
+        <hr />
+        {quips[Math.floor(Math.random() * quips.length)]}
       </p>
     </div>
   )
