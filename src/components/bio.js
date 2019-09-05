@@ -52,7 +52,7 @@ const Bio = () => {
       <p>
         I'm Ben. I'm a software engineer who likes to write about{" "}
         <strong>not</strong> software.
-        <hr />
+        <br />
         {quips[Math.floor(Math.random() * quips.length)]}
       </p>
     </div>

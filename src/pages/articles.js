@@ -1,13 +1,9 @@
-import React from "react"
+import React, { Component } from "react"
+import Layout from "../components/Layout"
 import { Link, graphql } from "gatsby"
-
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-
 import { rhythm } from "../utils/typography"
 
-class BlogIndex extends React.Component {
+export class Articles extends Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -23,10 +19,7 @@ class BlogIndex extends React.Component {
           { name: "Contact", link: "contact" },
         ]}
       >
-        <SEO title="Home" />
-        <Bio />
-        <h3>Recent Articles</h3>
-        {/* Only show the three most recent articles. */}
+        <h1>Articles</h1>
         {posts.slice(0, 3).map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
@@ -58,7 +51,7 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
+export default Articles
 
 export const pageQuery = graphql`
   query {

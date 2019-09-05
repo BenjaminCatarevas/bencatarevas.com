@@ -30,24 +30,22 @@ class Layout extends React.Component {
               >
                 {title}
               </Link>
-              {this.props.links.map(link => {
-                return (
-                  <Link
-                    key={link.name}
-                    to={link.link}
-                    style={{
-                      float: "right",
-                      paddingLeft: ".75rem",
-                      textDecoration: "none",
-                      color: "rgba(0,0,0,.45",
-                      display: "flex",
-                    }}
-                    className="link-class"
-                  >
-                    {link.name}
-                  </Link>
-                )
-              })}
+              <ul style={{ listStyle: "none", float: "right" }}>
+                {this.props.links.map(link => {
+                  return (
+                    <Link
+                      key={link.name}
+                      to={link.link}
+                      style={{
+                        display: "inline-block",
+                        marginRight: "1rem",
+                      }}
+                    >
+                      {link.name}
+                    </Link>
+                  )
+                })}
+              </ul>
             </h1>
           </div>
         </div>
@@ -69,22 +67,22 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
-          {this.props.links.map(link => {
-            return (
-              <Link
-                key={link.name}
-                to={link.link}
-                style={{
-                  float: "right",
-                  paddingLeft: "10px",
-                  textDecoration: "none",
-                  color: "grey",
-                }}
-              >
-                {link.name}
-              </Link>
-            )
-          })}
+          <ul style={{ listStyle: "none", float: "right" }}>
+            {this.props.links.map(link => {
+              return (
+                <Link
+                  key={link.name}
+                  to={link.link}
+                  style={{
+                    display: "inline-block",
+                    marginRight: "1rem",
+                  }}
+                >
+                  {link.name}
+                </Link>
+              )
+            })}
+          </ul>
         </h3>
       )
     }
