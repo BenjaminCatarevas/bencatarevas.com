@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
-import links from "../utils/links"
 
 export class About extends Component {
   render() {
@@ -9,7 +8,7 @@ export class About extends Component {
     const siteTitle = data.site.siteMetadata.title
 
     return (
-      <Layout location={this.props.location} title={siteTitle} links={links}>
+      <Layout location={this.props.location} title={siteTitle}>
         <h1> About Me</h1>
         <p>
           I'm Ben. I'm a software engineer who likes to write about topics that

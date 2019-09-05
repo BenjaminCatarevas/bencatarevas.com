@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import links from "../utils/links"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -31,7 +32,7 @@ class Layout extends React.Component {
                 {title}
               </Link>
               <ul style={{ listStyle: "none", float: "right" }}>
-                {this.props.links.map(link => {
+                {links.map(link => {
                   return (
                     <Link
                       key={link.name}
@@ -68,7 +69,7 @@ class Layout extends React.Component {
             {title}
           </Link>
           <ul style={{ listStyle: "none", float: "right" }}>
-            {this.props.links.map(link => {
+            {links.map(link => {
               return (
                 <Link
                   key={link.name}
