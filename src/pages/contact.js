@@ -17,6 +17,22 @@ export class Contact extends Component {
         ]}
       >
         <h1>Contact Information</h1>
+        <ul>
+          <li>
+            <strong>GitHub:</strong>{" "}
+            <a href="https://github.com/BenjaminCatarevas">BenjaminCatarevas</a>
+          </li>
+          <li>
+            <strong>LinkedIn:</strong>{" "}
+            <a href="https://linkedin.com/in/BenjaminCatarevas">
+              BenjaminCatarevas
+            </a>
+          </li>
+          <li>
+            <strong>Email:</strong>{" "}
+            <a href="mailto:bcatarevas@gmail.com">bcatarevas@gmail.com</a>
+          </li>
+        </ul>
       </Layout>
     )
   }
