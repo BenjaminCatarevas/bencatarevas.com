@@ -22,9 +22,9 @@ export class About extends Component {
           example.
         </p>
         <p>
-          Here you'll find articles ranging from how divergent my intersts and
-          career path is compared to my parents and broader family, to mundane
-          stories about my mundane life.
+          In the 'Posts' section, you'll find articles ranging from how
+          divergent my intersts and career path is compared to my family, to
+          mundane stories about my mundane life.
         </p>
         <p>
           Beyond my faux abhorrence for writing computer science articles, I
