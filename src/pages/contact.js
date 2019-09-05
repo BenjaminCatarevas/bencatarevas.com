@@ -20,17 +20,33 @@ export class Contact extends Component {
         <ul>
           <li>
             <strong>GitHub:</strong>{" "}
-            <a href="https://github.com/BenjaminCatarevas">BenjaminCatarevas</a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/BenjaminCatarevas"
+            >
+              BenjaminCatarevas
+            </a>
           </li>
           <li>
             <strong>LinkedIn:</strong>{" "}
-            <a href="https://linkedin.com/in/BenjaminCatarevas">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://linkedin.com/in/BenjaminCatarevas"
+            >
               BenjaminCatarevas
             </a>
           </li>
           <li>
             <strong>Email:</strong>{" "}
-            <a href="mailto:bcatarevas@gmail.com">bcatarevas@gmail.com</a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="mailto:bcatarevas@gmail.com"
+            >
+              bcatarevas@gmail.com
+            </a>
           </li>
         </ul>
       </Layout>
