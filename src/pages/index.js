@@ -7,6 +7,8 @@ import SEO from "../components/seo"
 
 import { rhythm } from "../utils/typography"
 
+import links from "../utils/links"
+
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
@@ -14,18 +16,10 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
 
     return (
-      <Layout
-        location={this.props.location}
-        title={siteTitle}
-        links={[
-          { name: "About", link: "about" },
-          { name: "Articles", link: "articles" },
-          { name: "Contact", link: "contact" },
-        ]}
-      >
+      <Layout location={this.props.location} title={siteTitle} links={links}>
         <SEO title="Home" />
         <Bio />
-        <h3>Recent Articles</h3>
+        <h3>Recent Posts</h3>
         {/* Only show the three most recent articles. */}
         {posts.slice(0, 3).map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug

@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import Layout from "../components/Layout"
 import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
+import links from "../utils/links"
 
 export class Articles extends Component {
   render() {
@@ -10,16 +11,8 @@ export class Articles extends Component {
     const posts = data.allMarkdownRemark.edges
 
     return (
-      <Layout
-        location={this.props.location}
-        title={siteTitle}
-        links={[
-          { name: "About", link: "about" },
-          { name: "Articles", link: "articles" },
-          { name: "Contact", link: "contact" },
-        ]}
-      >
-        <h1>Articles</h1>
+      <Layout location={this.props.location} title={siteTitle} links={links}>
+        <h1>Log</h1>
         {posts.slice(0, 3).map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (

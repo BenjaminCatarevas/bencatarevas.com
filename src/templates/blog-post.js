@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import links from "../utils/links"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -13,15 +14,7 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext
 
     return (
-      <Layout
-        location={this.props.location}
-        title={siteTitle}
-        links={[
-          { name: "Contact", link: "contact" },
-          { name: "Articles", link: "articles" },
-          { name: "About", link: "about" },
-        ]}
-      >
+      <Layout location={this.props.location} title={siteTitle} links={links}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
