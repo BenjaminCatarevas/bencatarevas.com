@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
 import links from "../utils/links"
