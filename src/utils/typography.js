@@ -1,14 +1,5 @@
 import Typography from "typography"
-// import Wordpress2016 from "typography-theme-wordpress-2016"
 import GitHub from "typography-theme-github"
-
-GitHub.overrideThemeStyles = () => {
-  return {
-    "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
-    },
-  }
-}
 
 delete GitHub.googleFonts
 
