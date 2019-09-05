@@ -24,7 +24,7 @@ class Layout extends React.Component {
                 style={{
                   boxShadow: `none`,
                   textDecoration: `none`,
-                  color: `inherit`,
+                  color: "#333",
                 }}
                 to={`/`}
               >
@@ -37,10 +37,12 @@ class Layout extends React.Component {
                     to={link.link}
                     style={{
                       float: "right",
-                      paddingLeft: "10px",
+                      paddingLeft: ".75rem",
                       textDecoration: "none",
-                      color: "grey",
+                      color: "rgba(0,0,0,.45",
+                      display: "flex",
                     }}
+                    className="link-class"
                   >
                     {link.name}
                   </Link>

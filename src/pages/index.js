@@ -24,7 +24,9 @@ class BlogIndex extends React.Component {
       >
         <SEO title="Home" />
         <Bio />
-        {posts.map(({ node }) => {
+        <h3>Recent Articles</h3>
+        {/* Only show the three most recent articles. */}
+        {posts.slice(0, 3).map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <article key={node.fields.slug}>
