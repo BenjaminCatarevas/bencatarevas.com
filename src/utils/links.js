@@ -1,5 +1,5 @@
 export default [
   { name: "About", link: "about" },
-  { name: "Log", link: "log" },
+  { name: "Posts", link: "posts" },
   { name: "Contact", link: "contact" },
 ]
