@@ -1,6 +1,5 @@
 ---
 title: Yet Another Blog
-date: "2019-09-05"
 description: The first of some to come.
 ---
 
@@ -10,4 +9,4 @@ While I am very grateful to those out there who write blog posts talking about n
 
 Instead, this will be a place for me to both showcase myself as well as write about random things that happen(ed) in my life from a mostly humorous (retro)spective.
 
-While I might come off as (very) dry in my writing, I feel I should preface future posts with the fact that I'm nowhere near as deadpan or dry in real life. There's probably a correlation there that I'm not seeing, but that's for someone else to figure out.
+While I might come off as (very) dry in my writing, let me preface future posts by saying that I'm nowhere near as deadpan or dry in real life. There's probably a correlation there that I'm not seeing, but that's for someone else to figure out.
