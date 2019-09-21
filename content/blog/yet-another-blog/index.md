@@ -1,5 +1,6 @@
 ---
 title: Yet Another Blog
+date: "2019-09-05"
 description: The first of some to come.
 ---
 
