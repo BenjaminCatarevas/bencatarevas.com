@@ -25,11 +25,6 @@ export class About extends Component {
           divergent my intersts and career path is compared to my family, to
           mundane stories about my mundane life.
         </p>
-        <p>
-          Beyond my faux abhorrence for writing computer science articles, I
-          love fashion (a passion for fashion, if you will), nutrition, and
-          classic rock, <i>because I was born in the wrong generation.</i>{" "}
-        </p>
       </Layout>
     )
   }
