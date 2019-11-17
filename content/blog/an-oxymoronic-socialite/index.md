@@ -1,0 +1,21 @@
+---
+title: An Oxymoronic Socialite
+date: "2019-11-09"
+description: A blend of extrovertism and introvertism.
+---
+
+A little preface: This post is pretty much split into two parts: The socialite part, and the oxymoronic part.
+
+I was an only child growing up, which meant the only people I spoke with on a given day were adults and people outside my age band. Neighbors on my block had kids, but they were older or younger than me for the most part, so I was in that awkward in-between range, where neighborhood kids would either show me their red trucks or their calculus homework. And I lived in an area where you need a car to get around, so I can't just walk to some place and strike up a conversation. This lack of interaction with kids my own age was partially due to accessibility and my environment, but also in part because I just didn't have that "starter culture," if you will, that showed me that engaging with kids my own age could be fun. Or, perhaps, the culture was there, but wasn't strong enough to show me that it's something worth doing more frequently than I had previously engaged in.
+
+Now, that's not to say I didn't have a soul to talk to in school. I knew a few kids whom I'd hang out with once in a while, mostly in my earlier years, and gradually less so in my later years. Almost exponentially less so as I went through school, in retrospect. I'd even say I spoke with teachers more than students on some days. And outside of school, I usually spoke with adults, my parents, their friends, et cetera. I'd get dragged to the once-a-year dinner party or family gathering, where adults would chat with me for a few minutes, probably wondering why I was there and not at a friend's house.
+
+And that was my social childhood, for the most part. I could have bucked the trend in high school had I had a phone and good internet to connect with people, but that's a story for another day.
+
+It's worth digging into my family a little more. This isn't a hitpiece on them, mind you, but it's worth mentioning for the sake of the full background. They're both very outgoing and easy to talk to, but also are like me (or I'm like them?), and don't have huge social circles, especially my dad (sorry Pops). My mom has a good amount of friends spanning across her work, school years, and passion groups like writing and animal rescue. My dad's circle of friends has a smaller radius, however. He's mostly stuck to chatting with coworkers, and has, as far as I can tell, one person he regularly chats with outside of work (however, he met them originally through work).
+
+And then there's me. All throughout college, I've pretty much maintained the same streak of minimal interaction with others. No hangouts, no parties, no hobbies or outings with anyone. The cycle almost eerily repeats itself as it did in my childhood. My lack of social interaction in college partially is _partially_ due to my environment. Storrs, Connecticut isn't exactly New York City. You walk outside and, yeah, it's pretty, but that's about it. But it again also has to do with that lack of a boostershot that 95% of other kids had when they were younger, seeing the benefit in hanging out with others.
+
+And yet somehow, not to toot my own horn, even though I don't hang out with anyone, I'm very outgoing and easy to talk to. Being a computer science student, you'd think that given my background and experience, I'd be a **super** recluse, but I've found myself talkative and outgoing and making jokes pretty regularly, even to my own surprise sometimes, and especially my parents' surprise. Now, I'm not someone who'll strike up random conversations on the street, that might be one step too far. But I'm also not someone who avoids eye contact with people either.
+
+I realize that in some aspects it's almost pitiful to speak about things like having the ability to make jokes or talk to people. But I feel that this post transcends that stereotype on account of the intersection between extrovertism and introvertism. It's a paradox (albeit an uninteresting one): I don't talk to anyone or have joked around with anyone, and really never have, and yet I _can_ talk to people and joke around, as if I had had those interactions as a child.
