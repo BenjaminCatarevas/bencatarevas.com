@@ -12,7 +12,7 @@ export class Articles extends Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <h1>Posts</h1>
-        {posts.slice(0, 3).map(({ node }) => {
+        {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <article key={node.fields.slug}>
