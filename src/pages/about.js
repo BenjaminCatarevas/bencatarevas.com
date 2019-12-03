@@ -20,6 +20,13 @@ export class About extends Component {
           example.
         </p>
         <p>
+          On the technological front, even though you won't see me writing about
+          it, I enjoy full-stack application development, but am always open to
+          new areas of computer science and software engineering. I'm not picky.
+          But for the majority of my software engineer life I have used dynamic
+          programming languages, so do with that what you will.
+        </p>
+        <p>
           In the 'Posts' section, you'll find articles ranging from how
           divergent my interests and career path is compared to my family, to
           mundane stories about my mundane life.
