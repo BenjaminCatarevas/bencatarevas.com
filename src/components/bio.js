@@ -50,8 +50,9 @@ const Bio = () => {
         }}
       />
       <p>
-        I'm Ben. I'm a software engineer who likes to write about{" "}
-        <strong>not</strong> software.
+        I'm Ben. I'm a software engineer who enjoys full-stack development and
+        most other types of development. On occasion, I like to write about
+        topics that have nothing to do with software.
         <br />
         {quips[Math.floor(Math.random() * quips.length)]}
       </p>
