@@ -54,6 +54,13 @@ const Bio = () => {
         most other types of development. On occasion, I like to write about
         topics that have nothing to do with software.
         <br />
+        <hr
+          style={{
+            height: "2px",
+            color: "#000000",
+            backgroundColor: "#000000",
+          }}
+        ></hr>
         {quips[Math.floor(Math.random() * quips.length)]}
       </p>
     </div>
