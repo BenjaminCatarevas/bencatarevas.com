@@ -14,4 +14,5 @@ export default [
   'If this blog ever becomes technical or has posts about new technology and a "FULL TUTORIAL ON HTML," please let me know so I can shut this website down.',
   "Fun fact: This website was originally used in a school project. That's the highpoint of this website. It peaked early.",
   "My humor is so dry you need a bottle of water to digest it.",
+  "Oh, you like fashion? Name every type of shirt fabric.",
 ]
