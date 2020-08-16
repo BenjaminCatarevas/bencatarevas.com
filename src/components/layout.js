@@ -2,91 +2,47 @@ import React from "react"
 import { Link } from "gatsby"
 import links from "../utils/links"
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
-    const rootPath = `/`
+    const { title, children } = this.props
     let header
 
-    if (location.pathname === rootPath) {
-      header = (
-        <div className="nav-container">
-          <div className="name-container">
-            <h1
-              style={{
-                ...scale(0.25),
-                marginBottom: rhythm(1.5),
-                marginTop: 0,
-              }}
-            >
-              <Link
-                style={{
-                  boxShadow: `none`,
-                  textDecoration: `none`,
-                  color: "#333",
-                }}
-                to={`/`}
-              >
-                {title}
-              </Link>
-              <ul style={{ listStyle: "none", float: "right" }}>
-                {links.map(link => {
-                  return (
-                    <Link
-                      key={link.name}
-                      to={link.link}
-                      style={{
-                        display: "inline-block",
-                        marginRight: "1rem",
-                      }}
-                    >
-                      {link.name}
-                    </Link>
-                  )
-                })}
-              </ul>
-            </h1>
-          </div>
-        </div>
-      )
-    } else {
-      header = (
-        <h3
+    header = (
+      <h3
+        style={{
+          marginTop: 0,
+        }}
+      >
+        <Link
           style={{
-            marginTop: 0,
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
           }}
+          to={`/`}
         >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-          <ul style={{ listStyle: "none", float: "right" }}>
-            {links.map(link => {
-              return (
-                <Link
-                  key={link.name}
-                  to={link.link}
-                  style={{
-                    display: "inline-block",
-                    marginRight: "1rem",
-                  }}
-                >
-                  {link.name}
-                </Link>
-              )
-            })}
-          </ul>
-        </h3>
-      )
-    }
+          {title}
+        </Link>
+        <ul style={{ listStyle: "none", float: "right" }}>
+          {links.map(link => {
+            return (
+              <Link
+                key={link.name}
+                to={link.link}
+                style={{
+                  display: "inline-block",
+                  marginRight: "1rem",
+                }}
+              >
+                {link.name}
+              </Link>
+            )
+          })}
+        </ul>
+      </h3>
+    )
     return (
       <div
         style={{
