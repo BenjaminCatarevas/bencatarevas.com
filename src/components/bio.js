@@ -6,63 +6,20 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import quips from "../utils/quips"
-import Image from "gatsby-image"
-import { rhythm } from "../utils/typography"
 
 const Bio = () => {
-  const data = useStaticQuery(graphql`
-    query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-        childImageSharp {
-          fixed(width: 50, height: 50) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      site {
-        siteMetadata {
-          author
-        }
-      }
-    }
-  `)
-
-  const { author } = data.site.siteMetadata
   return (
-    <div
-      style={{
-        display: `flex`,
-      }}
-    >
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
+    <div style={{ display: `flex` }}>
+      <br />
+      <hr
         style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: `100%`,
+          height: "2px",
+          color: "#000000",
+          backgroundColor: "#000000",
         }}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
-      />
-      <p>
-        I'm Ben. I'm a software engineer who enjoys full-stack development and
-        most other types of development. On occasion, I like to write about
-        topics that have nothing to do with software.
-        <br />
-        <hr
-          style={{
-            height: "2px",
-            color: "#000000",
-            backgroundColor: "#000000",
-          }}
-        ></hr>
-        {quips[Math.floor(Math.random() * quips.length)]}
-      </p>
+      ></hr>
+      {quips[Math.floor(Math.random() * quips.length)]}
     </div>
   )
 }
