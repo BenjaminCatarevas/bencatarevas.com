@@ -18,7 +18,7 @@ This post was inspired by this hilarious McSweeney's article, [Observations I Th
 
 "What kind of books are on his coffee table? I bet there's books on mariner life and knot-tying, not books about how a suit should fit or [_Menswear Dog_](https://www.amazon.com/Menswear-Dog-Presents-New-Classics/dp/1579656161)."
 
-"His bottom button is undone. I thought that was only for fashion and suits, I didn't know it was for utility as well."
+"His bottom coat button is undone. I thought that was only for fashion and suits, I didn't know it was for utility as well."
 
 "Why is he only wearing a t-shirt? Does he think the collar will protect in him the dead of winter?"
 
